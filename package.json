@@ -1,0 +1,11 @@
+{
+  "name": "toformat",
+  "version": "0.1.0",
+  "description": "A Webservice for formatting files to differnt file type",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "spin": "nodemon --watch main.go --verbose --legacy-watch --signal SIGINT --exec 'spin build --file spin.toml && spin up --follow-all --file spin.toml'"
+  }
+}
